@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+}
+body, html {
+   height: 100%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+body > #root {
+  height: 100%;
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+#root > .header-container {
+  padding: 10px 0;
+  width: 100%;
+  border-bottom: 3px solid #990000;
+}   
+
+#root
+ > .header-container 
+ > .top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#root 
+> .header-container 
+> .top-container 
+> img  {
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+}
+
+#root 
+> .header-container 
+> .top-container 
+> .item-menu {
+   background-color: 	white;
+   height: 40px;
+   width: 40px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#root 
+> .header-container 
+> .top-container 
+> .item-menu
+> div {
+  background-color: grey;
+  height: 2px;
+  width: 75%;
+  margin-top: 10px;
+  
+}
+
+#root 
+> .header-container 
+> .top-container 
+> .item-menu:hover {
+   background-color: #CCCCCC;
+}
+
+#root > .container {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+#root > .container > .title {
+  height: 50px;
+  width: 100%;
+  background-color:	#777777;
+  margin-top: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root 
+> .container 
+> .description {
+  margin-top: 5px;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#root 
+> .container 
+> .description
+> div:not(:nth-child(4)) {
+   height: 100%;
+   width: 190px;
+   color: black;
+   font-size: 18px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 5px;
+   background-color: #EEEEEE;
+   margin-left: 5px;
+}
+
+#root 
+> .container 
+> .description
+> div:hover {
+  background-color: #66CCFF;
+ 
+}
+
+#root 
+> .container 
+> .description
+> .slider {
+  margin-left: 20px;
+  font-size: 40px;
+}
+
+#root 
+> .container
+> .task-description {
+  border: 1px dashed #BBBBBB;
+  height: 70px;
+  width: 90%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 40px;
+}
+
+#root 
+> .container 
+> .number-container {
+  width: 100%;
+  padding: 15px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root 
+> .container 
+> .number-container 
+> div {
+  padding: 10px;
+  width: 180px;
+  background-color: #3B66B8;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root 
+> .container 
+> .title-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#root 
+> .container 
+> .title-container 
+> div {
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+#root 
+> .container 
+> .title-container 
+> div > span {
+  color: #3399FF;
+}
+
+
+#root 
+> .container 
+> p {
+  padding: 20px;
+  font-family: sans-serif;
+  font-size: 17px;
+  color:#666666;
+}
+
+#root 
+> .container 
+> .button-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 32%;
+  margin-bottom: 80px;
+}
+
+#root  
+> .container 
+> .button-container
+> button {
+  height: 55px;
+  width: 180px;
+  color: white;
+  background-color: #222222;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  
+}
+
+
+
+
